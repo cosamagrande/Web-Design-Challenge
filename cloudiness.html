@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cloudiness</title>
+
+  </head>
+
+  <body>
+    <!--Structure of navigation bar with buttons -ROW #1-->
+      <nav>
+        <div class="container-fluid" id="latittude">
+          <div class="row">
+  
+            <div class="col-md-2">
+              <div class="title_page">
+                <a target="_blank" href="index.html">LATTITUDE</a>
+              </div>
+            </div>
+    
+            <div class="col-md-6">
+            </div>
+  
+    <!-- Drop-list selection  -->
+  
+            <div class="col-md-1">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownmenubutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </button>
+                
+                <div class= "dropdown-menu" aria-labelledby ="dropdownmenubutton">
+                  <a class= "dropdown-item" href="windspeed.html">Wind Speed</a>
+                  <a class= "dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class= "dropdown-item" href="humidity.html">Humidity</a>
+                  <a class= "dropdown-item" href="Temperature.html">Temperature</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-1">
+              <div class="button_menu">
+                Data
+              </div>
+            </div>
+  
+            <div class="col-md-1">
+              <div class="button_menu">
+                Comparison
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <br>
+        <br>
+      </nav>
+  
+      <section>   
+    <!-- Images and Description - ROW #2-->
+          <div class="row">
+  
+            <div class="col-md-6">
+              <div class = "box landing_title-1">
+                CLOUDINESS
+              </div>
+              <br>
+              <br>
+              <img src="WebVisualizations/Resources/assets/images/Fig3.png" class="img-thumbnail float-left" alt= "City Lattitude vs. Wind Speed">
+  
+              <div class="box landing_text-1">
+                <p class="text-justify">No discernable trend observed during the time this data was gathered.
+                </p>
+                <br>
+                <br>
+              </div>
+            </div>
+  
+            <div class="col-md-3">
+              <div class = "box landing_title-2">
+                Visualizations
+              </div>
+              <br>
+              <br>
+              <a target="_blank" href="Temperature.html">
+              <img src="WebVisualizations/Resources/assets/images/Fig1.png" class="img-thumbnail" alt="city Lattitude vs. Max Temperature">
+              </a>
+              <br>
+              <br>
+              <a target="_blank" href="cloudiness.html">
+              <img src="WebVisualizations/Resources/assets/images/Fig3.png" class="img-thumbnail" alt="City Lattitude vs. Cloudiness">
+              </a>
+            </div>
+                  
+            <div class="col-md-3">
+              <br>
+              <br>
+              <br>
+              <a target="_blank" href="humidity.html">
+              <img src="WebVisualizations/Resources/assets/images/Fig2.png" class="img-thumbnail" alt="City Lattitude vs. Humidity">
+              </a>
+              <br>
+              <br>
+              <a target="_blank" href="windspeed.html">
+              <img src="WebVisualizations/Resources/assets/images/Fig4.png" class="img-thumbnail" alt="City Lattitude vs. Wind Speed">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+    </body>
